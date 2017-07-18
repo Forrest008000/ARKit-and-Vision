@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83B4CB11F196610005042B6 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A83B4CB01F1965E0005042B6 /* Inceptionv3.mlmodel */; };
 		A8C5BB601F16FF88000429C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5BB5F1F16FF88000429C9 /* AppDelegate.swift */; };
 		A8C5BB621F16FF88000429C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5BB611F16FF88000429C9 /* ViewController.swift */; };
 		A8C5BB651F16FF88000429C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C5BB631F16FF88000429C9 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A83B4CB01F1965E0005042B6 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		A8C5BB5C1F16FF88000429C9 /* ARPharmaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPharmaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C5BB5F1F16FF88000429C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8C5BB611F16FF88000429C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		A8C5BB5E1F16FF88000429C9 /* ARPharmaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A83B4CB01F1965E0005042B6 /* Inceptionv3.mlmodel */,
 				A8C5BB5F1F16FF88000429C9 /* AppDelegate.swift */,
 				A8C5BB611F16FF88000429C9 /* ViewController.swift */,
 				A8C5BB631F16FF88000429C9 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C5BB621F16FF88000429C9 /* ViewController.swift in Sources */,
+				A83B4CB11F196610005042B6 /* Inceptionv3.mlmodel in Sources */,
 				A8C5BB601F16FF88000429C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +528,7 @@
 				A8C5BB861F16FF88000429C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8C5BB871F16FF88000429C9 /* Build configuration list for PBXNativeTarget "ARPharmaDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				A8C5BB891F16FF88000429C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8C5BB8A1F16FF88000429C9 /* Build configuration list for PBXNativeTarget "ARPharmaDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				A8C5BB8C1F16FF88000429C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
